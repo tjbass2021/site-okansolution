@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover{
+    text-decoration: none;
+    color: #4e579e;
+    
+}
+
+/*Principal*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+main .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    background-color: black;
+    margin-bottom: 0;
+    
+}
+
+main .logo img{
+    opacity: 70%;
+}
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0;
+    height: 400px;
+    width: 100%;
+    background-color: #1f264b;
+    color: white;
+}
+
+#sobre .texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#sobre  .texto h1, #sobre .texto p{
+    text-align: center;
+}
+
+#sobre .texto h1{
+    margin: 0 auto;
+}
+
+#servicos{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: #4e579e;
+    height: 400px;
+    width: 100%;
+}
+
+#servicos h1{
+    margin: 0 auto;
+}
+
+#servicos .figuras{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* #servicos .figuras figure img a:hover{
+    width: 400%;
+    background-color: blue;
+} */
+
+#servicos .figuras figure img{
+    width: 300px;
+}
