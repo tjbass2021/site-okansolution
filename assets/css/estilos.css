@@ -29,7 +29,10 @@ header nav ul li a{
 
 header nav ul li a:hover{
     text-decoration: none;
-    color: #4e579e;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 5px;
+    
     
 }
 
@@ -53,9 +56,9 @@ main .logo{
     
 }
 
-main .logo img{
+/* main .logo img{
     opacity: 70%;
-}
+} */
 
 #sobre{
     display: flex;
@@ -102,10 +105,10 @@ main .logo img{
     flex-flow: row wrap;
 }
 
-/* #servicos .figuras figure img a:hover{
-    width: 400%;
-    background-color: blue;
-} */
+#servicos .figuras figure img:hover{
+    width: 350px;
+    
+}
 
 #servicos .figuras figure img{
     width: 300px;
