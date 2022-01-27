@@ -5,6 +5,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 header{
@@ -65,7 +66,7 @@ main .logo{
     flex-direction: column;
     align-items: center;
     margin: 0 0;
-    height: 400px;
+    height: 25%;
     width: 100%;
     background-color: #1f264b;
     color: white;
@@ -76,7 +77,10 @@ main .logo{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    height: 50%;
+    width: 80%;
+    padding: 20px;
+    margin: 100px;
 }
 
 #sobre  .texto h1, #sobre .texto p{
@@ -86,14 +90,19 @@ main .logo{
 #sobre .texto h1{
     margin: 0 auto;
 }
+#sobre .texto p{
+    width: 80%;
+    height: 60%;
+}
 
 #servicos{
     display: flex;
     flex-flow: column;
     align-items: center;
     background-color: #4e579e;
-    height: 400px;
+    height: 25%;
     width: 100%;
+    padding: 20px;
 }
 
 #servicos h1{
@@ -103,6 +112,8 @@ main .logo{
 #servicos .figuras{
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    border: 2px solid black;
 }
 
 #servicos .figuras figure img:hover{
@@ -111,5 +122,38 @@ main .logo{
 }
 
 #servicos .figuras figure img{
+    width: 300px;
+}
+#servicos .figuras figure{
+    border: 2px solid black;
+}
+
+#projetos{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+    background-color: #1f264b;
+    color: white;
+}
+
+.projetos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    border: 2px solid black;
+}
+
+.marketplace, .delivery, .oficina{
+    height: 80%;
+    width: 400px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.marketplace img, .oficina img, .delivery img{
     width: 300px;
 }
